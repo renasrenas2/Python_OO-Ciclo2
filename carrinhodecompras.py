@@ -48,7 +48,7 @@ class CarrinhoDeCompras:
         else:
             print("\nProdutos no carrinho: ")
             for produto in self.produtos:
-                print(f"- Nome: {produto.get_nome()}, Preço: R${produto.get_quantidade():.2f}, Quantidade: {produto.get_preco()}")
+                print(f"- Nome: {produto.get_nome()}, Preço: R${produto.get_preco():.2f}, Quantidade: {produto.get_quantidade()}")
             print()
 
             
