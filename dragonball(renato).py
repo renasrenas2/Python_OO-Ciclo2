@@ -86,12 +86,12 @@ def main():
         elif opcao == "2":
             print("\n===Lista de lutadores inscritos===\n")
             for l in torneio:
-                print(f"Nome: {nome} - Poder: {poder}")
+                print(f"Nome: {l.nome} - Poder: {l.poder}")
             print()
         
         elif opcao == "3":
             for i, l in enumerate(torneio):
-                print(f"{i+1} - {l}")
+                print(f"{i+1} - {l.nome}")
             print()
             
             lutador = int(input("Escolha um lutador: "))
